@@ -1,7 +1,18 @@
+body {
+  background-color: #282c34;
+}
 .App {
   text-align: center;
+  color: #ffffff;
+}
+.cep__item {
+  display: inline-grid;
+  justify-items: start;
 }
 
+.cep__item label{
+  margin-bottom: 8px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +25,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
